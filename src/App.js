@@ -1,23 +1,14 @@
 import logo from './logo.svg';
+import './Normalize.css';
 import './App.css';
+import HomepageHeader from './HomepageHeader';
+import HomepageJumbotron from './HomepageJumbotron';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container">
+      <HomepageHeader></HomepageHeader>
+      <HomepageJumbotron></HomepageJumbotron>
     </div>
   );
 }
