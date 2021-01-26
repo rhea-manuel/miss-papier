@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Miss Papier
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Miss Papier is a stationary website that specializes in attractive notebooks, pens, stickers, and accessories. 
 
-## Available Scripts
+## Tech Stack
 
 In the project directory, you can run:
 
